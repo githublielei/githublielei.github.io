@@ -1,200 +1,231 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>git</title>
+    <title>fullpage</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/respond.min.js"></script>
+   <script>
+        window.onload= window.onresize=function(){
+            document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth / 100 + 'px';
+        }
+    </script>
 </head>
 <body>
-<h1>hello git!</h1>
-<h1>我的个人简历</h1>
-<header class="w640">
-    <div class="w600">
-        <p class="logo">上海誉丞</p>
-        <div class="meu on"><a href="javascript:void (0)"><img src="img/header-meu.png" alt=""></a></div>
-        <div class="user"><a href="javascript:void (0)"><img src="img/header-user.png" alt=""></a></div>
-    </div>
-</header>
-<div class="ban"><img src="img/index-ban.png" alt=""></div>
-<section class="purchase part">
-    <div class="w600">
-        <div class="describe">
-            <h1>金山一元版</h1>
-            <a href="http://www.baidu.com"></a>
-            <h3 class="dot">0元注册+一般纳税人一年财务代理费6000+多</h3>
-        </div>
-        <div class="price">
-            <span class="pay-price">￥<b>6000</b></span><s>￥7200元</s>
-        </div>
-        <div class="address cl-f">
-            <div class="default lf"><span>注册地:</span><span class=" change-point">金山</span></div>
-            <div class="change-area change  rf ">更换地址></div>
-        </div>
-    </div>
-</section>
-<section class="comment">
-    <div class="w600">
-        <div class="tl">用户评价</div>
-        <div class="cot">
-            <div class="tags cl-f">
-                <a href="javascript:void(0)"><span>服务不错<i>(18)</i></span></a>
-                <a href="javascript:void(0)"><span>热心周到<i>(6)</i></span></a>
-                <a href="javascript:void(0)"><span>专业<i>(6)</i></span></a>
-                <a href="javascript:void(0)"><span>敬业<i>(6)</i></span></a>
-                <a href="javascript:void(0)"><span>服务不好<i>(4)</i></span></a>
-                <a href="javascript:void(0)"><span>有礼貌<i>(1)</i></span></a>
-                <a href="javascript:void(0)"><span>办事效率一般<i>(4)</i></span></a>
-            </div>
-            <div class="detail ">
-                <div class="cl-f">
-                    <div class="user lf"><img src="img/user.png" alt=""></div>
-                    <div class="text lf"><span class="phone">18217099854</span>
-                        <span class="goods">金山一元版</span>
-                        <span class="good"><img src="img/good.png" alt="好评"><span>好评</span></span></div>
-                </div>
-                <div class="pra">非常感谢许小姐，很专业很热情。办事效率很高。有朋友注册公司还来找你!</div>
-            </div>
-            <div class="more"><span class="get-more" >查看全部<i>(17)</i></span></div>
-        </div>
-    </div>
-</section>
-<section class="exchange-tab">
-    <div class="tab nav ">
-        <ul class="cl-f ">
-            <li class="sel tabs"><span>服务介绍</span></li>
-            <li class="tabs"><span>后续服务</span></li>
-            <li class="tabs"><span>热门问答</span></li>
-        </ul>
-    </div>
-    <div class="w600">
-
-        <div class="content">
-            <div class="tab-body">
-                <div class="what">
-                    <h1>注册公司的流程</h1>
-                    <div class="cot"><img src="img/flow.png" alt=""></div>
-                    <div class="get"><div class="text">
-                        <h1>办证后会拿到哪些材料</h1>
-                        <h2>1.营业执照</h2>
-                        <h2>2.财务章</h2>
-                        <h2>3公司章</h2>
-                        <h2>4.法人章</h2></div></div>
-                    <div class="advance">
-                        <h1 class="h1">誉丞服务优势</h1>
-                        <div class="itm itm1 cl-f">
-                            <div class="lf img"><img src="img/itm1.png" alt=""></div>
-                            <div class="lf text">
-                                <h2>明码标价</h2>
-                                <h3>无隐形收费</h3>
-                                <p>所有价格都是最终成交价，无额外收费。10+年品牌，200+员工，1500+平米核心CBD办公区，实力保证。</p>
-                            </div>
-                        </div>
-                        <div class="itm  itm2 cl-f">
-                            <div class="lf img"><img src="img/itm2.png" alt=""></div>
-                            <div class="lf text">
-                                <h2>专业代理人</h2>
-                                <h3>免费咨询</h3>
-                                <p>咨询团队超过20人，多名5年以上的咨询师提供注册公司一条龙服务。有业内领先的餐饮团队、危险品许可证、ICP许可办理等团队。</p>
-                            </div>
-                        </div>
-                        <div class=" itm itm3 cl-f">
-                            <div class="lf img"><img src="img/itm3.png" alt=""></div>
-                            <div class="lf text">
-                                <h2>一站式</h2>
-                                <h3>全面服务</h3>
-                                <p>从前期的公司注册到后期的财务、人事、商标、办公租赁、专项资金申请等。您只需关注您的核心业务，将行政事务性工作交给我们！</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-body tab-body2">
-                <div class="next-service ">
-                    <div class="pra1 cl-f">
-                        <div class="lf img"><img src="img/hiddle.png" alt=""></div>
-                        <div class="lf text"><p class="h1">好不容易注册完一家公司，后面还有哪些事是一定要做的？年检？报税？</p></div>
-                    </div>
-                    <div class="pra2 cl-f"> <div class="lf img"><img src="img/hiddle.png" alt=""></div>
-                        <div class="lf text"><p class="h1">好不容易注册完一家公司，后面还有哪些事是一定要做的？年检？报税？</p></div></div>
-                    <div class="detail">
-                        <p>公司注册完成后，我们一般是指拿到了营业执照和公章、财务章、法人章。接下去，还需要做以下4个必须的工作和2个可选的工作。</p>
-                        <ul>
-                            <li><img src="img/area1.png" alt="">
-                                <h2>银行开户</h2></li>
-                            <li><img src="img/area2.png" alt="">
-                                <h2>税务申报</h2></li>
-                            <li><img src="img/area3.png" alt="">
-                                <h2>人事</h2></li>
-                            <li><img src="img/area4.png" alt="">
-                                <h2>工商年度公示</h2></li>
-                        </ul>
-                    </div>
-                    <div class="more">
-                        <div class="more-tl cl-f">
-                            <div class="lf"><img src="img/gou.png" alt=""><span>2个可选的工作</span></div><div class="line rf"></div>
-                        </div>
-                        <div class="more-two">
-                            <p><span class="h1">1.商标:</span><span>注册一个商标</span></p>
-                            <p><span class="h1">1.法律:</span><span>常年法律服务</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div  class="tab-body  tab-body2" >
-                <div class="ques">
-                    <div class="qs">
-                        <div class="qq cl-f">
-                            <div class="lf icon"><img src="img/qq.png" alt=""></div>
-                            <div class="lf  text dot">我没有注册地址怎么办？</div></div>
-                        <div class="aa cl-f">
-                            <div class="lf"><img src="img/aa.png" alt=""></div>
-                            <div class="lf text">大部分行业，我们公司可以为您免费提供注册地址，这样操作已经超过十年了，非常稳妥没有出过问题。少数行业，则要求必须您提供实际的办公楼地址注册。</div>
-                        </div>
-                    </div>
-                    <div class="qs">
-                        <div class="qq cl-f">
-                            <div class="lf icon"><img src="img/qq.png" alt=""></div>
-                            <div class="lf  text dot">我没有注册地址怎么办？</div></div>
-                        <div class="aa cl-f">
-                            <div class="lf"><img src="img/aa.png" alt=""></div>
-                            <div class="lf text">大部分行业，我们公司可以为您免费提供注册地址，这样操作已经超过十年了，非常稳妥没有出过问题。少数行业，则要求必须您提供实际的办公楼地址注册。</div>
-                        </div>
-                    </div>
-                    <div class="qs">
-                        <div class="qq cl-f">
-                            <div class="lf icon"><img src="img/qq.png" alt=""></div>
-                            <div class="lf  text dot">我没有注册地址怎么办？</div></div>
-                        <div class="aa cl-f">
-                            <div class="lf"><img src="img/aa.png" alt=""></div>
-                            <div class="lf text">大部分行业，我们公司可以为您免费提供注册地址，这样操作已经超过十年了，非常稳妥没有出过问题。少数行业，则要求必须您提供实际的办公楼地址注册。</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-<div class="safe last-part">
-    <div class="zizhi"><img src="img/zizhi.png" alt=""></div>
+<div class="nav">
+    <div class="logo"><a href="#"><img src="img/logo@0,75x.png" alt="企盈注册"></a></div>
+    <div class="phone"><a href="/swt">咨询热线：400-168-7199</a></div>
 </div>
-<footer>
-    <div class="lf">
-        <div class="call"><a href="tel:4001687199">
-            <img src="img/call.png" alt=""><span class="h1">咨询</span>
-        </a></div>
+<div id="dowebok">
+    <div class="section s0">
+     <div class="main main0" id="main0">
+       <div class="h1 piao"><h1>注册公司的流程、费用、时间、材料</h1></div>
+         <div class="cl piao"><img src="img0/cl.png" alt="材料"></div>
+         <div class="cost piao"><img src="img0/cost.png" alt="费用"></div>
+         <div class="time piao"><img src="img0/time.png" alt="时间"></div>
+         <div class="flow piao"><img src="img0/flow.png" alt="流程"></div>
+         <div class="man piao"><img src="img0/man.png" alt="人"></div>
+         <div class="leftyun piao"><img src="img0/yun-left.png" alt="左边的yun"></div>
+         <div class="rightyun piao"><img src="img0/yun-right.png" alt="右边的yun"></div>
+         <div class="pra piao">
+             <p>网上关于注册公司的文章很多，大部分写得不够专业，写得专业的又让人看不懂。</p>
+             <p>企盈从事企业登记代理服务已经超过十年，我们特地编写了以下文字，</p>
+             <p>以上海为例，把创业者最关心的注册公司的问题写在一起，希望对您有所帮助。</p>
+         </div>
+     </div>
     </div>
-    <div class="rf">
-        <a  class="h1" href="">立即购买</a>
+<div class="section s1">
+    <div class="main main1">
+        <div class="wrap">
+            <div class="left">
+            <h1>步骤<span class="kuang">1</span><br/>判断成立何种类型的公司</h1>
+            <p>在开始注册公司之前，第一个要做判断的问题是：是成立有限责任公司还是无限责任公司？这个问题很重要，因为这两种公司税收最高会相差<b>40%！</b></p>
+                <table>
+                    <tr class="tittle">
+                        <th>公司形态</th>
+                        <th>常见名称</th>
+                        <th>适合行业</th>
+                        <th>税收</th>
+                        <th>运营成本</th>
+                    </tr>
+                    <tr>
+                        <td>有限责任公司</td>
+                        <td>上海xx有限公司</td>
+                        <td>大部分普通行业</td>
+                        <td>20-50%</td>
+                        <td rowspan="2" class="textCenter">相同</td>
+                    </tr>
+                    <tr>
+                        <td>无限责任公司<br/>（合伙企业）</td>
+                        <td>上海xx事务所、xx中心、<br/>xx商行、xx工作室…</td>
+                        <td>建筑设计、影音制<br/>作、投资咨询…</td>
+                        <td>8-10%</td>
+                    </tr>
+                </table>
+                <p>以上列出了一些大致区别，还有法律风险等，也有差别。如果您一时无法判断哪一种形态适合您，可以咨询律师或致电企盈公司<span class="num" title="注册公司">4001687199-1</span>，我们会提供免费咨询。</p>
+            </div>
+            <div class="right">
+                <div class="man"></div>
+                <div class="pao1"></div>
+                <div class="pao2"></div>
+            </div>
+        </div>
     </div>
-</footer>
-<div class="slider-meu trans-show">
-    dddddddddddddddddd
 </div>
-<div class="trans-show  area">
-    <div class="btnsel w600">
-        <a tg="13">金山</a><a tg="7">崇明</a><a tg="18">宝山</a><a tg="15">嘉定</a><a tg="17">奉贤</a><a tg="14">闵行</a><a tg="6">松江</a><a tg="5">徐汇</a><a tg="16">青浦</a><a tg="20">普陀</a><a tg="19">虹口</a><a tg="24">张江</a><a tg="22">闸北</a><a tg="12">杨浦</a><a tg="11">黄浦</a><a tg="10">长宁</a><a tg="26">金桥</a><a tg="27" class="okmemo-tmp-unselect">陆家嘴</a><a tg="9">浦东临港</a><a tg="21">外高桥自贸区</a>
+    <div class="section s2">
+        <div class="main main2">
+            <div class="wrap">
+                <div class="left">
+                    <div class="house absolute"><img src="img/s2-house.png" alt="房子"></div>
+                    <div class="map absolute"><img src="img/s2-map.png" alt="地图"></div>
+                    <div class="p1 absolute"><img src="img/s2-p1.png" alt=""></div>
+                    <div class="p2 absolute"><img src="img/s2-p2.png" alt=""></div>
+                    <div class="p3 absolute"><img src="img/s2-p3.png" alt=""></div>
+                    <div class="p4 absolute"><img src="img/s2-p4.png" alt=""></div>
+                    <div class="p5 absolute"><img src="img/s2-p5.png" alt=""></div>
 
+                </div>
+                <div class="right">
+                    <h1>步骤<span class="kuang">2</span><br>选定注册地址</h1>
+                    <p>先不要去查公司名字，因为在徐汇区查的名字只能在徐汇区注册公司，所以要先确定注册地址。 您有两种方法可以搞定地址，下面简单比较下各个优劣势。</p>
+                    <h3>自己提供地址 vs 别人提供地址</h3>
+                    <table>
+                        <tr class="tittle">
+                            <th>您的要求 </th>
+                            <th>自己提供地址</th>
+                            <th>代理公司提供地址</th>
+                        </tr>
+                        <tr>
+                            <td>只要有个地址注册就行</td>
+                            <td>自己租写字楼，贵<i class="cry"></i> </td>
+                            <td>郊区地址免费<i class="smile"></i></td>
+                        </tr>
+                        <tr>
+                            <td>一定要注册在市区</td>
+                            <td>自己租写字楼，贵<i class="cry"></i></td>
+                            <td>收1-3千地址费<i class="smile"></i></td>
+                        </tr>
+                        <tr>
+                            <td>离工商税务近，办事方便</td>
+                            <td>近，可以自己跑或外包<i class="soso"></i></td>
+                            <td>远，但可外包给代理公司，<br/>完全不用出门<i class="soso"></i></td>
+                        </tr>
+                        <tr>
+                            <td>地址的稳定性</td>
+                            <td>每次搬家，都要去做证件变更<i class="cry"></i></td>
+                            <td>搬家不影响，可永久使用<i class="smile"></i></td>
+                        </tr>
+                        <tr>
+                            <td>税收返还</td>
+                            <td>没有任何返税<i class="cry"></i></td>
+                            <td>可获得10-40%的地方返税<i class="smile"></i></td>
+                        </tr>
+                        <tr>
+                            <td>某些特别许可证办理</td>
+                            <td>必须用实际地址注册<i class="cry"></i></td>
+                            <td>地址无法提供<i class="smile"></i></td>
+                        </tr>
+                    </table>
+                    <p>
+                        注册公司，工商局要求任何人都必须提供：房地产和租赁协议。居民楼是不可以注册的，必须办公楼写字楼。你可以咨询我们，获得相关信息。</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="section s3">
+        <div class="main main3">
+            <div class="wrap">
+                <div class="left">
+                    <h1>步骤<span class="kuang">3</span><br/>自己办理 or 找代理公司？</h1>
+                    <p>自己办理，一个月完成，一般需要跑4-6趟，全部材料自己准备，麻烦。法律文件未经专业人士把关，有风险。且无法获得任何返税。<i class="smile"></i></p>
+                    <p>找代理公司，郊区注册，预计0-300元；市区注册，预计2500左右。全包，轻松。法律文件由专人编写，有保障，只要签字就行。且以后每年可以获得10-40%的地方政府税收返还。<i class="smile"></i></p>
+                </div>
+                <div class="right">
+                    <div class="runman absolute"></div>
+                    <div class="file absolute"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s4">
+        <div class="main main4">
+            <div class="wrap">
+                <div class="left">
+                    <div class="name absolute"><img src="img/s4-name.png" alt=""></div>
+                    <div class="icon1 absolute icon"><img src="img/s4-1.png" alt=""></div>
+                    <div class="icon2 absolute icon"><img src="img/s4-2.png" alt=""></div>
+                    <div class="icon3 absolute icon"><img src="img/s4-3.png" alt=""></div>
+                    <div class="icon4 absolute icon"><img src="img/s4-4.png" alt=""></div>
+                    <div class="icon5 absolute icon"><img src="img/s4-5.png" alt=""></div>
+                </div>
+                <div class="right">
+                    <h1>步骤<span class="kuang">4</span><br/>公司工商查名<span class="h4">（预计一周以上，政府收费0元）</span></h1>
+                    <p>先从这个环节开始，正式进入公司注册流程。</p>
+                    <p><b>所需材料：</b><br/>1、准备全体股东复印件（有的区要求原件）去工商局校验
+                       <br/> 2、全体股东签过字的查名表（工商有具体格式，每个区略有不同），表中需要填入股东姓名、股份比例、经营范围
+                        <br/>3、多个新名字，建议10个以上</p>
+                    <p><b>时间：</b>从材料被工商受理到查出来，5个工作日。我们的实际经验是，由于经常发生重名的情况，如果客户自己办理，还会发生用圆珠笔签驳回等各种情况......实际所需时间一般在半个月以上。<i class="smile"></i></p>
+                    <p><b>工作量：</b>至少去工商局2趟（查名无法通过网上操作）<i class="smile"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s5">
+        <div class="main main5">
+            <div class="wrap">
+                <div class="left">
+                    <h1>步骤<span class="kuang">5</span><br/>办理营业执照<span class="h4">（预计三周以上）</span></h1>
+                    <p><b>所需材料：</b><br/>1、公司章程<br/>2、股东决议<br/>3、房产证复印件、租赁协议原件<br/>4、填好工商各种表格<br/>5、全体股东、监事身份证原件<br/>6、公司将来财务身份证原件（企盈公司可以提供</p>
+                    <p><b>时间：</b>从工商受理之日起计，10个工作日获得新的营业执照。凭实际经验，准备各种材料+签字，找财务，仅仅准备材料时间在1-2周是很正常的。</p>
+                    <p><b>工作量：</b>准备法律文件建议专业人士介入，至少去工商局2-4趟。</p>
+                </div>
+                <div class="right">
+                    <div class="gsj absolute"></div>
+                    <div class="man5 absolute"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s6">
+        <div class="main main6">
+            <div class="wrap">
+                <div class="top">
+                <div class="left">
+                    <div class="cal absolute"></div>
+                    <div class="mark absolute"></div>
+                </div>
+                <div class="right">
+                    <h1>步骤<span class="kuang">6</span><br/>刻章<span class="h4">（2天，费用80-200不等）</span></h1>
+                    <p>有了营业执照后，可以找一家有刻章资质的公司刻公章、法人章、财务专用章。<br/>找代理公司，比如我们企盈，可以免费提供刻章服务。</p>
+                    <p>完成刻章，正常的公司注册流程就完成了。从查名开始计算，根据我们实际经验，预计1-2个月完成是很正常的。现在全民创业，工商受理资料堆积如山，速度非常慢。<i class="cry"></i></p>
+                    <div class="click">
+                        <a href="/swt" class="click1"><img src="img/click1.png" alt="一元下单"></a>
+                        <a href="/swt" class="click2"><img src="img/click2.png" alt="线上咨询"></a></div>
+                        <p class="time">（咨询时间：8:45-20:00）</p>
+                </div>
+                </div>
+                <div class="article absolute">
+                <p class="article">在完成公司注册后，财务代理是非常重要的。关于这部分内容，<a href="/article1.html">请关注我们的另一篇文章：</a></p>
+                <p class="article">公司后续服务，如开银行账户、年度公示、人事等事务，<a href="/article2.html">请关注我们的另一篇文章：</a></p>
+            </div>
+        </div>
+    </div>
+        <p class="copyright"><i class="red">*</i> 任何企业或个人不得将以上文字作为商业用途，一经发现，企盈保留用法律维护自身权利的权利</p>
+ </div>
+<script>
+    $(function () {
+        $('#dowebok').fullpage({
+            navigation: true,
+            navigationColor: "#e60012"
+
+        })
+    });
+</script>
 </div>
 </body>
 </html>
